@@ -1,6 +1,7 @@
-FROM mcr.microsoft.com/mssql/server:2022-latest
+FROM mcr.microsoft.com/mssql/server:2019-latest
 
 ENV ACCEPT_EULA=Y
+ENV MSSQL_PID=Developer
 
 EXPOSE 1433
 
